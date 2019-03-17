@@ -1,0 +1,196 @@
+body {
+  background:white;
+  color:black;
+  font-size:25px;
+}
+
+.page {
+  display:none;
+  height:50%
+  vertical-align:middle;
+  align-content: center;
+  align-items: center;
+  margin:auto;
+}
+
+img {
+  display:flex;
+  align-items:center;
+  max-width:750px;
+  max-height: 900px
+  align-content: center;
+}
+
+.choices{
+  display:inline-block;
+  flex-direction:row;
+  	position:relative;
+  	display:flex;
+  	flex-wrap: wrap;
+  	align-items:center;
+  	justify-content: center;
+    top: 100px;
+    left: 120px;
+
+}
+.choice {
+display:inline-block;
+flex-direction: row;
+flex-wrap:wrap;
+padding: 30px;
+justify-content: center;
+align-items: flex-start;
+margin: 5px;
+}
+
+
+
+#title {
+  flex-direction: column;
+  text-align: center;
+  color:black;
+  font-family:"Futura";
+  font-size:40px;
+  margin-top:50px;
+  margin-left:35px;
+
+}
+
+
+.captions {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  color:black;
+  font-family:"Futura";
+  font-size:25px;
+  top:90px;
+  left:25px;
+  width: 650px;
+}
+
+
+button {
+  display:fixed;
+  font-size:1em;
+  background:white;
+  color:black;
+  /* margin-top:12%; */
+  margin-left:60%;
+  -webkit-border-radius: 35;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+  font-family: "Futura";
+    color: black;
+    font-size: 27px;
+    padding: 20px;
+    width:200px;
+    /* align-content:center; */
+    /* text-align: center; */
+    /* margin-left:625px; */
+    margin: auto;
+
+}
+button:hover {
+      background-color:black;
+      color: white;
+ }
+
+
+#page0 {
+ display:block;
+ position:absolute;
+ width:150px;
+ top:30%;
+ left:35%;
+}
+
+#page1 {
+  flex:none;
+  position:absolute;
+  width:150px;
+  top:30%;
+  left:35%;
+}
+
+#page2 {
+  flex:none;
+  position:absolute;
+  width:150px;
+  top:30%;
+  left:35%;
+}
+
+#page3 {
+  flex:none;
+  position:absolute;
+  width:150px;
+  top:30%;
+  left:35%;
+}
+
+.typewriter p {
+  color: #000;
+  font-family: Futura;
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin:auto;
+  letter-spacing: .15em;
+  animation:
+    typing 4.5s steps(30, end),
+    blink-caret .5s step-end 2.5;
+    border-right: .15em solid transparent;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
+}
+
+#intro {
+    display: block;
+    flex-direction: row;
+    text-align: center;
+    color:black;
+    font-family:"Futura";
+    font-size:25px;
+    margin-top:120px;
+    margin-left:35px;
+}
+
+#nextPage{
+  margin-left:100%;
+}
+
+#nextPage2{
+  margin-left:100%;
+}
+
+#nextPage3{
+  margin-left:100%;
+}
+
+#nextPage4{
+  margin-left:100%;
+}
+
+#nextPage5{
+  margin-left:100%;
+}
+
+#nextPage6{
+  margin-left:100%;
+}
+
+#nextPage7{
+  margin-left:100%;
+}
